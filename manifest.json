@@ -9,7 +9,7 @@
     "editors": [{  "name": "Modbus Status Viewer",  "port": 9330,  "supportsReverseProxy": true}],
     "ports":[
         "502:5020",
-        "9330:9330"
+        "9332:9330"
     ],
     "env":[
         "LOGLEVEL=notice",
