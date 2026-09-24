@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM public.ecr.aws/k3c6y7y4/snow-leopard/modbus-bridge:${VERSION}
+FROM public.ecr.aws/v7c5l1w8/snow-leopard/hp-modbus-connector:${VERSION}
 
 ARG ARCH
 ARG VERSION
