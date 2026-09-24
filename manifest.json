@@ -6,10 +6,9 @@
     "revision": "0",
     "image": "flecs.azurecr.io/com.herborner-pumpen.hp.modbus-connector",
     "multiInstance": false,
-    "editors": [{  "name": "Modbus Status Viewer",  "port": 9330,  "supportsReverseProxy": true}],
+    "editors": [{  "name": "Modbus Connector WebUI",  "port": 9330,  "supportsReverseProxy": true}],
     "ports":[
-        "502:5020",
-        "9332:9330"
+        "502:5020"
     ],
     "env":[
         "LOGLEVEL=notice",
